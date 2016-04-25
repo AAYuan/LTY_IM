@@ -73,6 +73,7 @@
     
     // 4.每次接收完数据，都要再次监听数据
     [sock readDataWithTimeout:-1 tag:0];
+
 }
 
 #pragma mark socket代理
