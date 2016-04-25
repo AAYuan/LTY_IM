@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833770151CCE855900ABBC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770141CCE855900ABBC70 /* main.m */; };
+		833770181CCE855900ABBC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770171CCE855900ABBC70 /* AppDelegate.m */; };
+		8337701B1CCE855900ABBC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8337701A1CCE855900ABBC70 /* ViewController.m */; };
+		8337701E1CCE855900ABBC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8337701C1CCE855900ABBC70 /* Main.storyboard */; };
+		833770201CCE855900ABBC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8337701F1CCE855900ABBC70 /* Assets.xcassets */; };
+		833770231CCE855900ABBC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833770211CCE855900ABBC70 /* LaunchScreen.storyboard */; };
+		8337702E1CCE855900ABBC70 /* AYuanChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8337702D1CCE855900ABBC70 /* AYuanChatTests.m */; };
+		833770391CCE855900ABBC70 /* AYuanChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770381CCE855900ABBC70 /* AYuanChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8337702A1CCE855900ABBC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833770081CCE855900ABBC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8337700F1CCE855900ABBC70;
+			remoteInfo = AYuanChat;
+		};
+		833770351CCE855900ABBC70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833770081CCE855900ABBC70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8337700F1CCE855900ABBC70;
+			remoteInfo = AYuanChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		833770101CCE855900ABBC70 /* AYuanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYuanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833770141CCE855900ABBC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		833770161CCE855900ABBC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		833770171CCE855900ABBC70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		833770191CCE855900ABBC70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8337701A1CCE855900ABBC70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8337701D1CCE855900ABBC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8337701F1CCE855900ABBC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833770221CCE855900ABBC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		833770241CCE855900ABBC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833770291CCE855900ABBC70 /* AYuanChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYuanChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8337702D1CCE855900ABBC70 /* AYuanChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYuanChatTests.m; sourceTree = "<group>"; };
+		8337702F1CCE855900ABBC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833770341CCE855900ABBC70 /* AYuanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AYuanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833770381CCE855900ABBC70 /* AYuanChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AYuanChatUITests.m; sourceTree = "<group>"; };
+		8337703A1CCE855900ABBC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8337700D1CCE855900ABBC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833770261CCE855900ABBC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833770311CCE855900ABBC70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833770071CCE855900ABBC70 = {
+			isa = PBXGroup;
+			children = (
+				833770121CCE855900ABBC70 /* AYuanChat */,
+				8337702C1CCE855900ABBC70 /* AYuanChatTests */,
+				833770371CCE855900ABBC70 /* AYuanChatUITests */,
+				833770111CCE855900ABBC70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833770111CCE855900ABBC70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833770101CCE855900ABBC70 /* AYuanChat.app */,
+				833770291CCE855900ABBC70 /* AYuanChatTests.xctest */,
+				833770341CCE855900ABBC70 /* AYuanChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833770121CCE855900ABBC70 /* AYuanChat */ = {
+			isa = PBXGroup;
+			children = (
+				833770161CCE855900ABBC70 /* AppDelegate.h */,
+				833770171CCE855900ABBC70 /* AppDelegate.m */,
+				833770191CCE855900ABBC70 /* ViewController.h */,
+				8337701A1CCE855900ABBC70 /* ViewController.m */,
+				8337701C1CCE855900ABBC70 /* Main.storyboard */,
+				8337701F1CCE855900ABBC70 /* Assets.xcassets */,
+				833770211CCE855900ABBC70 /* LaunchScreen.storyboard */,
+				833770241CCE855900ABBC70 /* Info.plist */,
+				833770131CCE855900ABBC70 /* Supporting Files */,
+			);
+			path = AYuanChat;
+			sourceTree = "<group>";
+		};
+		833770131CCE855900ABBC70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				833770141CCE855900ABBC70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8337702C1CCE855900ABBC70 /* AYuanChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8337702D1CCE855900ABBC70 /* AYuanChatTests.m */,
+				8337702F1CCE855900ABBC70 /* Info.plist */,
+			);
+			path = AYuanChatTests;
+			sourceTree = "<group>";
+		};
+		833770371CCE855900ABBC70 /* AYuanChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				833770381CCE855900ABBC70 /* AYuanChatUITests.m */,
+				8337703A1CCE855900ABBC70 /* Info.plist */,
+			);
+			path = AYuanChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8337700F1CCE855900ABBC70 /* AYuanChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8337703D1CCE855900ABBC70 /* Build configuration list for PBXNativeTarget "AYuanChat" */;
+			buildPhases = (
+				8337700C1CCE855900ABBC70 /* Sources */,
+				8337700D1CCE855900ABBC70 /* Frameworks */,
+				8337700E1CCE855900ABBC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AYuanChat;
+			productName = AYuanChat;
+			productReference = 833770101CCE855900ABBC70 /* AYuanChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		833770281CCE855900ABBC70 /* AYuanChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833770401CCE855900ABBC70 /* Build configuration list for PBXNativeTarget "AYuanChatTests" */;
+			buildPhases = (
+				833770251CCE855900ABBC70 /* Sources */,
+				833770261CCE855900ABBC70 /* Frameworks */,
+				833770271CCE855900ABBC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8337702B1CCE855900ABBC70 /* PBXTargetDependency */,
+			);
+			name = AYuanChatTests;
+			productName = AYuanChatTests;
+			productReference = 833770291CCE855900ABBC70 /* AYuanChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		833770331CCE855900ABBC70 /* AYuanChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833770431CCE855900ABBC70 /* Build configuration list for PBXNativeTarget "AYuanChatUITests" */;
+			buildPhases = (
+				833770301CCE855900ABBC70 /* Sources */,
+				833770311CCE855900ABBC70 /* Frameworks */,
+				833770321CCE855900ABBC70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833770361CCE855900ABBC70 /* PBXTargetDependency */,
+			);
+			name = AYuanChatUITests;
+			productName = AYuanChatUITests;
+			productReference = 833770341CCE855900ABBC70 /* AYuanChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833770081CCE855900ABBC70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = AYuan;
+				TargetAttributes = {
+					8337700F1CCE855900ABBC70 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					833770281CCE855900ABBC70 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8337700F1CCE855900ABBC70;
+					};
+					833770331CCE855900ABBC70 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8337700F1CCE855900ABBC70;
+					};
+				};
+			};
+			buildConfigurationList = 8337700B1CCE855900ABBC70 /* Build configuration list for PBXProject "AYuanChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 833770071CCE855900ABBC70;
+			productRefGroup = 833770111CCE855900ABBC70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8337700F1CCE855900ABBC70 /* AYuanChat */,
+				833770281CCE855900ABBC70 /* AYuanChatTests */,
+				833770331CCE855900ABBC70 /* AYuanChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8337700E1CCE855900ABBC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833770231CCE855900ABBC70 /* LaunchScreen.storyboard in Resources */,
+				833770201CCE855900ABBC70 /* Assets.xcassets in Resources */,
+				8337701E1CCE855900ABBC70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833770271CCE855900ABBC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833770321CCE855900ABBC70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8337700C1CCE855900ABBC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8337701B1CCE855900ABBC70 /* ViewController.m in Sources */,
+				833770181CCE855900ABBC70 /* AppDelegate.m in Sources */,
+				833770151CCE855900ABBC70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833770251CCE855900ABBC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8337702E1CCE855900ABBC70 /* AYuanChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833770301CCE855900ABBC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833770391CCE855900ABBC70 /* AYuanChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8337702B1CCE855900ABBC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8337700F1CCE855900ABBC70 /* AYuanChat */;
+			targetProxy = 8337702A1CCE855900ABBC70 /* PBXContainerItemProxy */;
+		};
+		833770361CCE855900ABBC70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8337700F1CCE855900ABBC70 /* AYuanChat */;
+			targetProxy = 833770351CCE855900ABBC70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8337701C1CCE855900ABBC70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8337701D1CCE855900ABBC70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		833770211CCE855900ABBC70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833770221CCE855900ABBC70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8337703B1CCE855900ABBC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8337703C1CCE855900ABBC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8337703E1CCE855900ABBC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AYuanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayuan.AYuanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8337703F1CCE855900ABBC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AYuanChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayuan.AYuanChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		833770411CCE855900ABBC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYuanChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayuan.AYuanChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYuanChat.app/AYuanChat";
+			};
+			name = Debug;
+		};
+		833770421CCE855900ABBC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AYuanChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayuan.AYuanChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AYuanChat.app/AYuanChat";
+			};
+			name = Release;
+		};
+		833770441CCE855900ABBC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYuanChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayuan.AYuanChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYuanChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		833770451CCE855900ABBC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AYuanChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ayuan.AYuanChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AYuanChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8337700B1CCE855900ABBC70 /* Build configuration list for PBXProject "AYuanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8337703B1CCE855900ABBC70 /* Debug */,
+				8337703C1CCE855900ABBC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8337703D1CCE855900ABBC70 /* Build configuration list for PBXNativeTarget "AYuanChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8337703E1CCE855900ABBC70 /* Debug */,
+				8337703F1CCE855900ABBC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		833770401CCE855900ABBC70 /* Build configuration list for PBXNativeTarget "AYuanChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833770411CCE855900ABBC70 /* Debug */,
+				833770421CCE855900ABBC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		833770431CCE855900ABBC70 /* Build configuration list for PBXNativeTarget "AYuanChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833770441CCE855900ABBC70 /* Debug */,
+				833770451CCE855900ABBC70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833770081CCE855900ABBC70 /* Project object */;
+}
