@@ -7,14 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ServertListener.h"
+#import "ServertForward.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
         // 1.创建服务监听器
-        ServertListener *listener = [[ServertListener alloc] init];
+        ServertForward *listener = [[ServertForward alloc] init];
         
         // 2.开始监听
         [listener start];
