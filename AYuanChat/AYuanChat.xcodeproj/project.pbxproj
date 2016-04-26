@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		831150A71CCF7764000519E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831150A61CCF7764000519E8 /* Login.storyboard */; };
+		831150AB1CCFAD75000519E8 /* LTYAddFreindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831150AA1CCFAD75000519E8 /* LTYAddFreindViewController.m */; };
 		833770151CCE855900ABBC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770141CCE855900ABBC70 /* main.m */; };
 		833770181CCE855900ABBC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770171CCE855900ABBC70 /* AppDelegate.m */; };
 		8337701B1CCE855900ABBC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8337701A1CCE855900ABBC70 /* ViewController.m */; };
@@ -49,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		831150A61CCF7764000519E8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		831150A91CCFAD75000519E8 /* LTYAddFreindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTYAddFreindViewController.h; sourceTree = "<group>"; };
+		831150AA1CCFAD75000519E8 /* LTYAddFreindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTYAddFreindViewController.m; sourceTree = "<group>"; };
 		833770101CCE855900ABBC70 /* AYuanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYuanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833770141CCE855900ABBC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		833770161CCE855900ABBC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +165,22 @@
 			name = Login;
 			sourceTree = "<group>";
 		};
+		831150A81CCFA97D000519E8 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				831150A91CCFAD75000519E8 /* LTYAddFreindViewController.h */,
+				831150AA1CCFAD75000519E8 /* LTYAddFreindViewController.m */,
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
+		831150AC1CCFBEB8000519E8 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 		833770071CCE855900ABBC70 = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +249,8 @@
 		833770891CCE882700ABBC70 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				831150AC1CCFBEB8000519E8 /* Chat */,
+				831150A81CCFA97D000519E8 /* AddressBook */,
 				831150A51CCF5487000519E8 /* Login */,
 				8337708A1CCE882700ABBC70 /* Lib */,
 				833770B51CCE882700ABBC70 /* Others */,
@@ -472,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831150AB1CCFAD75000519E8 /* LTYAddFreindViewController.m in Sources */,
 				8337701B1CCE855900ABBC70 /* ViewController.m in Sources */,
 				833770181CCE855900ABBC70 /* AppDelegate.m in Sources */,
 				833770151CCE855900ABBC70 /* main.m in Sources */,
