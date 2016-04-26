@@ -19,6 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 }
 - (IBAction)registerBtn:(id)sender {
     
@@ -49,7 +50,15 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 if (!error) {
                     NSLog(@"登陆成功");
+                    //登录成功后设置开启自动登录
+                    [[EMClient sharedClient].options setIsAutoLogin:YES];
+                    //来到主界面
+                    self.view.window.rootViewController = [UIStoryboard storyboardWithName:@"Main" bundle:nil].instantiateInitialViewController;
+                } else {
+                    NSLog(@"登录失败 %@",error);
+                    
                 }
+                
             });
             
             

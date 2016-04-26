@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831150A71CCF7764000519E8 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831150A61CCF7764000519E8 /* Login.storyboard */; };
 		833770151CCE855900ABBC70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770141CCE855900ABBC70 /* main.m */; };
 		833770181CCE855900ABBC70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833770171CCE855900ABBC70 /* AppDelegate.m */; };
 		8337701B1CCE855900ABBC70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8337701A1CCE855900ABBC70 /* ViewController.m */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		831150A61CCF7764000519E8 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		833770101CCE855900ABBC70 /* AYuanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYuanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		833770141CCE855900ABBC70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		833770161CCE855900ABBC70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				833770171CCE855900ABBC70 /* AppDelegate.m */,
 				833770191CCE855900ABBC70 /* ViewController.h */,
 				8337701A1CCE855900ABBC70 /* ViewController.m */,
+				831150A61CCF7764000519E8 /* Login.storyboard */,
 				8337701C1CCE855900ABBC70 /* Main.storyboard */,
 				8337701F1CCE855900ABBC70 /* Assets.xcassets */,
 				833770211CCE855900ABBC70 /* LaunchScreen.storyboard */,
@@ -441,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831150A71CCF7764000519E8 /* Login.storyboard in Resources */,
 				833770231CCE855900ABBC70 /* LaunchScreen.storyboard in Resources */,
 				833770201CCE855900ABBC70 /* Assets.xcassets in Resources */,
 				8337701E1CCE855900ABBC70 /* Main.storyboard in Resources */,
