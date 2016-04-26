@@ -21,6 +21,7 @@
     [super viewDidLoad];
     
 }
+
 - (IBAction)registerBtn:(id)sender {
     
     if (!(self.userName.text.length || self.password.text.length)) {
@@ -38,7 +39,6 @@
     }
 
 }
-
 - (IBAction)loginBtn:(id)sender {
 
     if (!(self.userName.text.length || self.password.text.length)) {
@@ -60,7 +60,6 @@
                 }
                 
             });
-            
             
         });
     }
