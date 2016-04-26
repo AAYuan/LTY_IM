@@ -51,3 +51,6 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+#忽略三方框架
+/system/AYuanChat/Dependence/*
