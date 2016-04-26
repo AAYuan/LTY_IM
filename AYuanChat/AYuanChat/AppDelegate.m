@@ -19,8 +19,10 @@
 {
     //AppKey:注册的appKey，详细见下面注释。
     //apnsCertName:推送证书名(不需要加后缀)，详细见下面注释。
+    //初始化SDK,并隐藏环信SDK的日志输入
     EMOptions *options = [EMOptions optionsWithAppkey:@"ayuan#ayuanchat"];
 //    options.apnsCertName = @"istore_dev";
+    options.logLevel = EMLogLevelWarning;
     [[EMClient sharedClient] initializeSDKWithOptions:options];
     
     return YES;

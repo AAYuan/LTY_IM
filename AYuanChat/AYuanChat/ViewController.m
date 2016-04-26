@@ -22,6 +22,20 @@
 }
 - (IBAction)registerBtn:(id)sender {
     
+    if (!(self.userName.text.length || self.password.text.length)) {
+        NSLog(@"请输入用户名或密码");
+    }else {//开启异步线程进行登录操作
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            EMError *error = [[EMClient sharedClient] registerWithUsername:self.userName.text  password:self.password.text];
+            //注册完成后回到主线程
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (!error) {
+                    NSLog(@"注册成功");
+                }
+            });
+        });
+    }
+
 }
 
 - (IBAction)loginBtn:(id)sender {
@@ -31,9 +45,13 @@
     }else {//开启异步线程进行登录操作
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             EMError *error = [[EMClient sharedClient] loginWithUsername:self.userName.text password:self.password.text];
-            if (!error) {
-                NSLog(@"登陆成功");
-            }
+            //登录完成后回到主线程
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (!error) {
+                    NSLog(@"登陆成功");
+                }
+            });
+            
             
         });
     }
